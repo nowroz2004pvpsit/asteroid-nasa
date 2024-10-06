@@ -14,15 +14,15 @@
         <link rel="stylesheet" type="text/css" href="x3dom.css" />
 	</head>
        
-<body onload="startUpdate()">
-    <h1>Venus, Earth, Mars and Potentially Hazardous Asteroids (PHA)*</h1> 
-	<h2>Slider control adjusts the simulation speed.</h2>
+<body style="display: flex; align-items: center; justify-content: center; flex-direction: column; background-color: rgb(62, 132, 223);" onload="startUpdate()">
+    <h1 style="color: black;"><center style="color: black;">The_Atoms Project Demo of Asteroid For NASA Hackathon </center> </h1> 
+	<!-- <h2>Slider control adjusts the simulation speed.</h2>
 	<p>
 	<ul style="list-style-type:disc">
 	<li>Right-button click and drag to zoom in and out</li>
 	<li>Left-button click and drag to rotate model</li>
 	<li>Middle-button click and drag to move model</li>
-	</ul>
+	</ul> -->
 	</p>
 	<p class="case"> 
 		<X3D xmlns="http://www.web3d.org/specifications/x3d-namespace" showStat="false" showLog="false" x="0px" y="0px" width="800px" height="600px">
@@ -577,20 +577,20 @@ function updatePosition()
 	// updatePosition() 
     }	
    </script>
-   <p id="modelDate"> </p>
-   <input type="range" id="myRange" name="points" min="1" max="100" value="100" step="1" onchange="showValue(this.value)"/><br>&nbsp; &nbsp;
+   <!-- <p id="modelDate"> </p> -->
+   <!-- <input type="range" id="myRange" name="points" min="1" max="100" value="100" step="1" onchange="showValue(this.value)"/><br>&nbsp; &nbsp;
    <input type="button" id="orbits" value="Toggle Orbits" onclick="toggleOrbits();" />&nbsp; 
-   <input type="button" id="labels" value="Toggle labels" onclick="toggleLabels();" />
+   <input type="button" id="labels" value="Toggle labels" onclick="toggleLabels();" /> -->
   <!-- <span id="range">0</span>  -->
-   <br>
+   <!-- <br>
    <p class="case" align="center"><i>*Objects are not to scale</i></p> 
-   <br>
-   <p style="width:800px">
+   <br> -->
+   <!-- <p style="width:800px">
    Using orbital data provided by the Jet Propulsion Laboratory's Center for Near Earth Object Studies, this visualization presents the
    trajectories of 50 potentially hazardous asteroids. A slider bar controls the speed of the animation. Buttons hide or show the labels and
    the traced trajectories.   
-   </p>
-   <p>
+   </p> -->
+   <!-- <p>
    Sources of data and equations applied in the model:
    <ol>
    <li><A HREF="http://www.met.rdg.ac.uk/~ross/Astronomy/Planets.html#rates">Orbital elements</A></li>
@@ -598,7 +598,7 @@ function updatePosition()
    <li><A HREF="http://neo.jpl.nasa.gov/cgi-bin/neo_elem?type=PHA;hmax=all;max_rows=20;action=Display%20Table;show=1&sort=moid&sdir=ASC">Potentially Hazardous Asteroids</A></li>
    <li><A HREF="http://www.wiley.com/WileyCDA/WileyTitle/productCd-0471146366.html"><u>Orbital Mechanics: Theory and Applications</u></A></li>
    </ol>
-   </p>
+   </p> -->
 	<script type="text/javascript" src="x3dom.js"></script>
    
 </body>
